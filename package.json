@@ -1,0 +1,35 @@
+{
+  "name": "merge-sorted-arrays",
+  "version": "1.0.0",
+  "description": "project for merging 2 sorted arrays",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node index.ts"
+
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.ts$"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkanit/Merge-sorted-arrays.git"
+  },
+  "author": "Akkanit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akkanit/Merge-sorted-arrays/issues"
+  },
+  "homepage": "https://github.com/Akkanit/Merge-sorted-arrays#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
